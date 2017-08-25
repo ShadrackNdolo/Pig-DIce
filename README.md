@@ -42,7 +42,7 @@ The program should alert a message when one of the individuals reaches a score o
 
 ## Known Bugs
 
-There are no known bugs.
+All bugs fixed.
 
 ## Technologies Used
 
