@@ -1,8 +1,17 @@
+//BACKEND
+
+function player(turn) {
+  this.turn = turn;
+  this.score = score;
+  this.name = name;
+}
 
 function clearFields() {
   $('input#playerOne').val("");
   $('input#playerTwo').val("");
 }
+
+//FRONT-END
 
 $(document).ready(function () {
   $('#players').submit(function (event) {
@@ -17,3 +26,9 @@ $(document).ready(function () {
     clearFields();
   });
 });
+
+//NEWPART
+
+
+
+//ENDOFNEWPART

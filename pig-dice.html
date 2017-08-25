@@ -11,6 +11,8 @@
 </head>
 
 <body>
+  <!--the head of the page-->
+
   <div class="container">
     <div class="section1">
       <header>
@@ -18,10 +20,14 @@
       </header>
     </div>
 
+    <!--THE GAME RULES-->
+
     <div class="section2">
       <h2>Rules</h2>
       <p>Be the first player to reach 100 points.</p>
     </div>
+
+    <!--PLAYER SELECTION-->
 
     <div class="section3">
       <h2>Lets Play!.</h2>
@@ -42,23 +48,51 @@
       </form>
     </div>
 
-    <div class="section4">
-      <div class="row">
-        <div class="col-md-6">
+    <!--THE GAME-->
 
-          <p class="player1"></p>
+    <div class="container">
 
-          <button type="submit" id="rollPlayerOne">ROLL</button>
-          <button type="submit" id="holdPlayerOne">HOLD</button>
-        </div>
+      <div class="section4">
 
-        <div class="col-md-6">
-          <p class="player2"></p>
-          <button type="submit" id="rollPlayerTwo">ROLL</button>
-          <button type="submit" id="holdPlayerTwo">HOLD</button>
+        <div class="row" id="main">
+
+          <div class="wrapper">
+            <div class="col-md-4">
+              <h2 class="player1"></h2>
+              <h3>Score: <span id="player1score"></span></h3>
+              <h3>Wins: <span id="player1wins"></span></h3>
+              <div id="player1buttons">
+                <button id="roll" class="btn btn-large btn-danger">Roll dice</button>
+                <button id="hold" class="btn btn-large btn-success">Hold</button>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <h2>Roll: <span id = "dice"></span></h2>
+              <span id="displaydice"></span>
+              <h3>Current score: <span id="current"></span></h3>
+            </div>
+
+            <div class="col-md-4">
+              <h2 class="player2"></h2>
+              <h3>Score: <span id="player2score"></span></h3>
+              <h3>Wins: <span id="player2wins"></span></h3>
+              <div id="player2buttons">
+                <button id="roll" class="btn btn-large btn-danger">roll dice</button>
+                <button id="hold" class="btn btn-large btn-success">hold</button>
+              </div>
+            </div>
+            <div class="instructions">
+              <h4>Player one roll: "z"</h4>
+              <h4>Player two roll: "/"</h4>
+              <h4>Hold:            Space</h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!--END OF NEW PART-->
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
 </body>
