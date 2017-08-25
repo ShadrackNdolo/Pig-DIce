@@ -4,3 +4,16 @@
 .section2{
   text-align: center;
 }
+body{
+  background-image: url("../images/uju.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#dice {font-size: 2rem;}
+#displaydice {
+  font-size: 8rem;
+  margin: 15%;
+}
