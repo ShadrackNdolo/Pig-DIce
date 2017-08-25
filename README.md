@@ -37,7 +37,7 @@ The program should alert a message when one of the individuals reaches a score o
 ## Setup/Installation Requirements
 
 * Clone or Download the repository on your command line terminal to view or edit the content. GitBash.exe for windows and Terminal for Linux.
-* Click on the following website link to view the [site](https://shadrackndolo.github.io/pingpong/).
+* Click on the following website link to view the [site](https://shadrackndolo.github.io/Pig-Dice/).
 
 
 ## Known Bugs
