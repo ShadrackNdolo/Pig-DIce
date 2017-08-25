@@ -12,6 +12,9 @@ body{
   color: white;
 }
 
+#letsPlayButton{
+  background-color: black;
+}
 #dice {font-size: 2rem;}
 #displaydice {
   font-size: 8rem;
