@@ -11,14 +11,55 @@
 </head>
 
 <body>
-  <header>
-    <h1>Pig Dice</h1>
-  </header>
+  <div class="container">
+    <div class="section1">
+      <header>
+        <h1>Pig Dice</h1>
+      </header>
+    </div>
 
+    <div class="section2">
+      <h2>Rules</h2>
+      <p>Be the first player to reach 100 points.</p>
+    </div>
 
+    <div class="section3">
+      <h2>Lets Play!.</h2>
 
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/scripts.js"></script>
+      <form id="players">
+
+        <div class="form-group">
+          <label for="playerOne">PLAYER 1</label>
+          <input type="text" class="form-control" id="playerOne" placeholder="Please enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="playerTwo">PLAYER 2</label>
+          <input type="text" class="form-control" id="playerTwo" placeholder="Please enter your name">
+        </div>
+
+        <button type="submit" id="letsPlayButton">PLAY!</button>
+      </form>
+    </div>
+
+    <div class="section4">
+      <div class="row">
+        <div class="col-md-6">
+          <p>PLayer 1</p>
+
+          <button type="submit" id="rollPlayerOne">ROLL</button>
+          <button type="submit" id="holdPlayerOne">HOLD</button>
+        </div>
+
+        <div class="col-md-6">
+          <p>Player 2</p>
+          <button type="submit" id="rollPlayerTwo">ROLL</button>
+          <button type="submit" id="holdPlayerTwo">HOLD</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
